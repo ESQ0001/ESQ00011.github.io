@@ -79,9 +79,13 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+h3,h6{
+    
+    text-align: left
 }
 
 p {
@@ -107,10 +111,13 @@ address {
 }
 
 ol,
+
 ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+    text-align:left;
+
 }
 
 ol ol,
@@ -199,6 +206,13 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+    
+  
+}
+img.border{
+    
+    border: 5px solid #555;
+    
 }
 
 svg {
@@ -534,6 +548,14 @@ pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
+}
+
+.frame {
+  
+  border: 3px solid #ccc;
+
+
+  
 }
 
 .pre-scrollable {
@@ -9939,6 +9961,8 @@ blockquote {
   tr,
 img {
     page-break-inside: avoid;
+    border: 5px solid #555;
+
   }
 
   p,
@@ -10395,6 +10419,23 @@ form .row:first-child .floating-label-form-group {
   .right {
   left: 0%;
   }
+    #menutop ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menutop li {
+   margin: 0;
+   display: inline;
+   padding: 10px;
+}
+    div.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+    
 }
 
 /*end timeline*/
