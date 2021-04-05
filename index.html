@@ -68,7 +68,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">View case study</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
                         </div>
@@ -77,7 +77,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                               <div class="portfolio-item-caption-content text-center text-white">View case study</div> 
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
                         </div>
@@ -86,7 +86,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                 <div class="portfolio-item-caption-content text-center text-white">View case study</div> 
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
                         </div>
@@ -243,14 +243,11 @@
                                             <!-- Portfolio Modal - Image Mining-->
                                             <img class="img-fluid rounded mb-5" src="assets/img/portfolio/IM_App.png" alt="" />
                                             <!-- Portfolio Modal - Text-->
-                                            <p class="mb-5">Development of an application (both front-end and back-end) capable of classifying different types of food, using transfer-learning.
-                                                <a href="IM.pdf" target="_blank">Read the full paper</a> 
 
-                                            </p>
 
                                             <h3>Overview</h3>
 
-                                            <p style= "text-align: left;">This project was done in the “Image Mining” class at UPM for the Human Computer Interction and Design MSc. The code is available on Github (https://github.com/ESQ0001/ImageMining). The emphasis of this project was put in the backend side. Therefore, the most challenging part was to understand the machine learning and deep learning aspects. </p>
+                                            <p style= "text-align: left;">This project was done in the “Image Mining” class at UPM for the Human Computer Interction and Design MSc. The code is available on Github (https://github.com/ESQ0001/ImageMining). The emphasis of this project was put in the backend side. Therefore, the most challenging part was to understand the machine learning and deep learning aspects. <a href="IM.pdf" target="_blank">Read the full paper</a>  </p>
 
 
                                             <h3>Problem</h3>
@@ -275,7 +272,7 @@
                                             <h3>Process</h3>
 
                                             <p style= "text-align: left;">The first we had to find was nutritional information regarding different types of food. We created a dataframe with the filename, the type of food and some nutriotional information. Then, we vectorized the images and we used the image’s pixels and histogram for classification. We did not obtain great results, so we tried deep learning with a simple CNN architecture. This was not working properly, so we hypothesized something was wrong with our data set. Sure enough, the vectorization was interrupted in the middle of the calculation so some images were missing pixel values. We recomputed everything and once we saw some improvement with a simple CNN we tried transfer learning. Parallelly we started building our application, which was simple enough (check the Accuracy and error analysis image) user flow in the next image. We created the following list, with an explanation for some of the most common errors:</p>
-                                            
+
 
                                             <ul>
                                                 <li>Non-food images</li>
@@ -284,8 +281,24 @@
                                                 <li>More than one food item in the image</li>
                                                 <li> Backgrounds too big compared to the food</li>
                                             </ul>
+                                            <div class = "row">
+                                                <div class="column">
 
-                                            <img src="assets/img/Errors_IM.png" alt="Error Analysis"  width="800" height="550" />
+
+                                                    <figure>
+                                                        <img class="img-fluid rounded mb-5 " hspace=10  src="assets/img/Errors_IM.png" alt="Error Analysis"  width="500" height="250" />
+                                                        <figcaption> Error analysis for the "apple-pie" </figcaption>
+                                                    </figure>
+                                                </div>
+                                                <div class = "column">
+                                                    <figure>
+                                                        <img class="img-fluid rounded mb-5 "  src="assets/img/UserFlow_IM.png" alt="User flow of the app"  width="150" height="175" />
+                                                        <figcaption> User flow </figcaption>
+                                                    </figure>
+
+                                                </div>
+
+                                            </div>
 
                                             <h3>Outcomes and lessons</h3>
 
@@ -324,53 +337,53 @@ Close Window
                                             <!-- Portfolio Modal - Image-->
                                             <img class="img-fluid rounded mb-5" src="assets/img/portfolio/IM_HCI.png" alt="" />
                                             <!-- Portfolio Modal - Text TABLE-TOP GAME-->
-                                          
-                                            
+
+
                                             <h3> Overview</h3>
-                                            
+
                                             <p style="text-align: left;">This project was done in the HCI Project class at UPM (Human Computer Interaction and Design MSc), during the year 2019-2020. The goal was to follow the UCD (User Centered Design) methodology to design a fun table-top gaming platform.</p>
-                                            
+
                                             <h3> Problem</h3>
-                                            
+
                                             <p style="text-align: left;">How to incorporate the roles of game player and creator in a new and innovative platform?</p>
-                                            
+
                                             <h3> Users and audience</h3>
-                                            
+
                                             <p style="text-align: left;">We were targeting table-top players, keen on trying a new solution for their game-playing necessities.</p>
-                                            
+
                                             <h3> Roles and responsabilities</h3>
-                                            
+
                                             <p style="text-align: left;">We were a team of four students and for academic purposes we tried to rotate the roles. However, due to the language barrier, I was the person in charge of conducting the interviews in Spanish.</p>
-                                            
-                                            
+
+
                                             <h3> Process </h3>
-                                            
+
                                             <p style="text-align: left;">We applied the User Centered Design process. In total, we went through different phases, including:</p>
-                                            
+
                                             <h6>The idea and project description</h6>
                                             <p style="text-align: left;">As a team we came up with the idea and started analyzing it under different perspectives.</p>
-                                            
+
                                             <h6>An initial planning</h6>
                                             <p style="text-align: left;">We created an initial planning to achieve our solution on time.</p>
-                                            
+
                                             <h6>Analysis of the context of use</h6>
                                             <p style="text-align: left;">We had various interview sessions with game players and a couple of interviews with game creators (one of them a professional game creator), as well. Finally, we went to a Boardgame Café in Madrid to observe some players and ask them some brief questions.</p>
-                                            
+
                                             <h6>Low fidelity prototypes</h6>
                                             <p style="text-align: left;">We designed two prototypes, with distinct functionalities and use cases. To better understand the different designs, we used two scenarios illustrating how these prototypes would be used in different settings. Finally, we planned the usability testing process, including the introductory test, the tasks to be carried out by the participant and an informed consent where we asked the participant permission to record them while performing the tasks.</p>
-                                            
+
                                             <h6>Usability testing of the low fidelity prototype</h6>
                                             <p style="text-align: left;">In this phase, we wanted to determine the preferred prototype. There were two user roles, within the system (game creator and game player) and our tasks tested both roles. When conducting the usability tests, we asked a few introductory questions to assess our user’s familiarity with the technological devices to better understand the impact their previous experience had when interacting with our prototypes. This is especially important, since the usability tests took place online, due to COVID, and therefore unfamiliarity with technological tools could impact our results.  We gave the participants different tasks and we measured the effectiveness (by averaging the mistakes made by all participants and then calculating the standard deviation to better explain the consistency of our results) and the success rate for each design. Secondly, we measured the efficiency by averaging the actions (in this case number of “clicks”) and calculating the standard deviation. We used the System Usability Scale and the User Experience Questionnaire (UEQ) to measure the user satisfaction and user experience respectively. The results were analyzed at the end of this phase and the “tablet” prototype performed better than its phone counterpart both in the SUS and UEQ. However, we found interesting features in the phone that were appreciated by a majority of users and we decided to implement them (or similar) in the final prototype.</p>
-                                            
+
                                             <h6>High-fidelity prototype design</h6>
                                             <p style="text-align: left;">The objective in this phase was to design a final prototype. We started by designing our system’s navigation map, and we designed the prototype according to our main tasks (defined from the beginning of the project). We then developed the prototype on Android and we planned for the usability tests.</p>
-                                            
+
                                             <h6>Usability testing of high-fidelity prototype</h6>
                                             <p style="text-align: left;">Similarly to the low-fidelity prototype, we measured efficiency and effectiveness in the same way and we used the UEQ and SUS to measure our prototype’s performance. For the SUS questionnaire we obtained 80.625, surpassing the 80.3 mark, meaning our product will likely be recommended by our users. For the six UX attributes measured by the UEQ, we obtained grades comprised between “above average” or “ good”, with the exception of “novelty”, where we obtained a “bad” grade. We concluded that our users did not think our product was innovative.</p>
-                                            
-                                            
-                                            
-                                            
+
+
+
+
                                             <h3> Outcomes and lessons</h3>
 
                                             <p style="text-align: left;">This project allowed us to apply the User-Centered Design from beginning to end. Even though, the principles are simple, dealing with people and interpretability is difficult. I find that thinking about new design solutions is stimulating and gives real meaning to the work, since we were dealing with real users.</p>
@@ -406,59 +419,71 @@ Close Window
                                                 <div class="divider-custom-line"></div>
                                             </div>
                                             <!-- Portfolio Modal - Image-->
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/AR_Prot.png" alt="" />
+                                            <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/AR_Prot.png" alt="" />
                                             <!-- Portfolio Modal - Text-->
-                                            
+
                                             <h3>Overview</h3>
                                             <p style="text-align: left;">This project was done in the “Design Methods” class at UPM for the Human Computer Interaction and Design MSc. The project's objective was to apply the UCD process and lasted 4 months. The work focused on the design of an online music course in augmented reality.</p>
-                                            
+
                                             <h3>Problem</h3>
-                                            
+
                                             <p style="text-align: left;">How to make learning an instrument/music more engaging?</p>
-                                            
+
                                             <h3> Users and audience</h3>
-                                            
+
                                             <p style="text-align: left;"> Originally, we were targeting adults interested in learning or perfecting their musical musical and music teachers. After interviewing real users (a university professor, who is doctor in musicology, a piano teacher and 6 music students), we were able to create the following personas:</p>
-                                            
-                                            
-                                            
-                                            <img class="border" vspace= 15 src="assets/img/jacquelinePersona.png" alt="Jacqueline Persona"  width="500" height="300" />
-                                                
-                                           
-                                            
+
+
+
+                                            <img  class="img-fluid rounded mb-5 border" vspace= 15 src="assets/img/jacquelinePersona.png" alt="Jacqueline Persona"  width="500" height="300" />
+
+
+
                                             <br>
-                                            
-                                            
-                                                
-                                             <img class = "border" vspace = 15 src="assets/img/johnPersona.png" alt="Jacqueline Persona"  width="500" height="300" />
-                                            
-                                            
+
+
+
+                                            <img class="img-fluid rounded mb-5 border" vspace = 15 src="assets/img/johnPersona.png" alt="John Persona"  width="500" height="300" />
+
+
                                             <br>
-                                            
-                                           
-                                             <img class = "border" vspace= 15 src="assets/img/oprahPersona.png" alt="Jacqueline Persona"  width="500" height="300" />
-                                                
-                                            
+
+
+                                            <img  class="img-fluid rounded mb-5 border" vspace= 15 src="assets/img/oprahPersona.png" alt="Oprah Persona"  width="500" height="300" />
+
+
                                             <h3> Roles and responsabilities</h3>
-                                            
+
                                             <p style="text-align: left;">Roles were interchangeable. Due to the language barrier, I conducted the interviews in Spanish. We designed two prototypes and I oversaw the augmented reality version.</p>
-                                            
+
                                             <h3>Process</h3>
-                                            
-                                            <p style="text-align: left;"> We applied the UCD process. Firstly, we planned the interviews and we interviewed our users (from both user’s roles: music teacher and music student) to empathize with them and understand their needs. Secondly, we created the personas, user navigation maps and task scenarios, and we analyzed the context of use. Thirdly, we developed two low-fidelity prototypes (for the tablet and for the AR glasses). In real-life we would have had to test this low fidelity version but we did not in this case. We directly designed the high-fidelity version thanks to Figma. As I said I was involved in the AR version and designing for AR in Figma proved to be a challenge, but we overcame it. Here are the videos of both high-fidelity prototypes. </p>
-                                            
-                                            <iframe width="560" height="315" src="assets/img/Emusic_ARGlasses_video_prototype.mp4" frameborder="0" allowfullscreen></iframe>
-                                            
+
+                                            <p style="text-align: left;"> We applied the UCD process. Firstly, we planned the interviews and we interviewed our users (from both user’s roles: music teacher and music student) to empathize with them and understand their needs. Secondly, we created the personas, user navigation maps and task scenarios, and we analyzed the context of use. Thirdly, we developed two low-fidelity prototypes (for the tablet and for the AR glasses). In real-life we would have had to test this low fidelity version but we did not in this case. We directly designed the high-fidelity version thanks to Figma. As I said I was involved in the AR version and designing for AR in Figma proved to be a challenge, but we overcame it. Here is the video of the AR prototype. </p>
+
+                                            <video class = "embed-responsive video" width="400" controls="controls" preload="metadata">
+                                                <source src="assets/img/Emusic_ARGlasses_video_prototype.mp4" type="video/mp4">
+                                            </video>
+
+
+                                            <!--
+<div class= "container2">
+<iframe class="responsive-iframe"  src="assets/img/Emusic_ARGlasses_video_prototype.mp4" frameborder="0" allowfullscreen ></iframe> 
+
+
+
+</div> 
+-->
+
                                             <h3>Outcomes and lessons</h3>
-                                            
-                                            
-                                            
+
+
+
                                             <p style="text-align: left;">This was the first project where I had to apply the UCD. In my opinion, it was an interesting project, because we tok full advantage of the academic setting and we tried to design for an unknown technology, imagining possible interactions. One of the problems is that there are no real standards for AR (compared to material design for Android). However, I honestly think we did a solid job as a team.</p>
-                                            
-                                            
-                                            
-                                            
-                                            
+
+
+
+
+
                                             <!--   <button class="btn btn-primary" data-dismiss="modal">
 <i class="fas fa-times fa-fw"></i>
 Close Window
