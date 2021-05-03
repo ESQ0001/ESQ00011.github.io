@@ -10440,6 +10440,11 @@ form .row:first-child .floating-label-form-group {
   margin-right: auto;
   display: table;
 }
+    div.center1 {
+  margin-left: auto;
+  margin-right: auto;
+  ;
+}
     
     .container2 {
   position: relative;
